@@ -42,4 +42,8 @@ Produces ConcentrixTimesheet.exe that users can run without installing Python.
 Python dependencies summary:
 
 Install once in your virtualenv or system:
-pip install pandas openpyxl pyinstaller
+open windows powershell and run the following command.
+$ pip install pandas openpyxl pyinstaller
+
+After installing the dependencies, clone the repo and run the following command to launch the app.
+$ python app.py
