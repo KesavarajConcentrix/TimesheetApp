@@ -4,14 +4,17 @@ from openpyxl import Workbook
 from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-# Light green for weekends
-GREEN_FILL = PatternFill(start_color="CCFFCC", end_color="CCFFCC", fill_type="solid")
 
-# Yellow for empty weekdays
-YELLOW_FILL = PatternFill(start_color="FFFF99", end_color="FFFF99", fill_type="solid")
-
-# Light blue header
+# Header (light blue)
 HEADER_FILL = PatternFill(start_color="ADD8E6", end_color="ADD8E6", fill_type="solid")
+
+# Employee / weekday background (light green)
+GREEN_FILL = PatternFill(start_color="E2F0D9", end_color="E2F0D9", fill_type="solid")
+
+# Empty weekday (same green in your expected sheet)
+YELLOW_FILL = PatternFill(start_color="E2F0D9", end_color="E2F0D9", fill_type="solid")
+
+
 
 
 # Border style - thin black border on all sides
